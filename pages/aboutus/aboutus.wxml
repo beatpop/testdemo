@@ -1,0 +1,10 @@
+<!--pages/aboutus/aboutus.wxml-->
+<view class='aboutus'>
+    <view class='aboutimg'>
+      <image src="{{aboutImg}}"></image>
+    </view>
+
+    <view class='abouttitle gaptotop'><text>{{aboutTitle}}</text></view>
+
+    <textarea class=' aboutdes gaptotop'>{{aboutDes}}</textarea>
+  </view> 

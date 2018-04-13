@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/aboutus/aboutus",
+    "pages/blogdetail/detail",
+    "pages/bloglists/lists"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "学习demo",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "backgroundColor": "#000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icons/house-icon.png",
+        "selectedIconPath": "images/icons/house-icon.png"
+      },
+      {
+        "pagePath": "pages/aboutus/aboutus",
+        "text": "关于我们",
+        "iconPath": "images/icons/contacts.png",
+        "selectedIconPath": "images/icons/contacts.png"
+      }
+    ]
+  }
+}
