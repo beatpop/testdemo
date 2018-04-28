@@ -7,7 +7,13 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="usermotto">
+  <view class="indexImg">
+    <image src="{{indexImg}}" width="100%"></image>
+  </view>
+  <view class="111111111zxcxc">
     <text class="user-motto">{{motto}}</text>
+  </view>
+    <text>{{indexDesc}}</text>
+  <view>
   </view>
 </view>

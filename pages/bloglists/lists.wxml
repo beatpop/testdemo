@@ -1,2 +1,11 @@
 <!--pages/bloglists/lists.wxml-->
-<text>pages/bloglists/lists.wxml</text>
+<view class="container">
+<!-- 文章列表模板 -->
+<template name="lists">
+  <view>
+    <image src="" class="in-image"></image>
+  </view>
+  <view>{{title}}</view>
+  <view>{{cTime}}</view>
+</template>
+</view>

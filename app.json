@@ -23,6 +23,12 @@
         "selectedIconPath": "images/icons/house-icon.png"
       },
       {
+        "pagePath": "pages/bloglists/lists",
+        "text": "博客列表",
+        "iconPath": "images/icons/list.png",
+        "selectedIconPath": "images/icons/list.png"
+      },
+      {
         "pagePath": "pages/aboutus/aboutus",
         "text": "关于我们",
         "iconPath": "images/icons/contacts.png",

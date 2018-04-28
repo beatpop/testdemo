@@ -4,7 +4,9 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
+    indexImg: '../../images/vans0413.jpg',
+    motto: 'Hello',
+    indexDesc: 'Welcome to our Blog!',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
