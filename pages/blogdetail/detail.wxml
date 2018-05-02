@@ -1,2 +1,12 @@
 <!--pages/blogdetail/detail.wxml-->
-<text>pages/blogdetail/detail.wxml</text>
+<view>
+  <view class="header">
+    <view>{{info.title}}</view>
+    <view>{{info.cTime}}</view>
+  </view>
+
+  <view class="detail-center">
+    <image src="{{info.img}}" background-size="cover"></image>
+  </view>
+  <view class="deContent">{{info.content}}</view>
+</view>

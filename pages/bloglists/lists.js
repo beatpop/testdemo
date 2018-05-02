@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    newLists: [
+    newsList: [
       { id: 1, title: 'hey', image: '../../images/01.jpg', cTime: '2018-04-28 18:00:00' },
       { id: 2, title: 'hello', image: '../../images/01.jpg', cTime: '2018-04-28 18:00:00' },
       { id: 3, title: 'guy', image: '../../images/01.jpg', cTime: '2018-04-28 18:00:00' },
