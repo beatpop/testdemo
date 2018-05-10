@@ -17,4 +17,23 @@
 <view wx:for="{{newsList}}" wx:for-item="news" class="list">
   <template is="lists" data="{{...news}}" />
 </view>
+<view style='margin-top: 20px;'></view>
+</view>
+
+<!-- 绑定接口 -->
+<view style='margin: 20px 0 20px 20px;'>
+  <!-- 场所列表模板 -->
+  <template name="reLists">
+    <navigator url="../../pages/blogdetail/detail?id={{id}}" hover-class="navigator-hover">
+    <view class="infos" style='margin-top: 10px;'>
+      <view class="deTitle">名称：{{name}}</view>
+      <view class="deTime">地址：{{address}}</view>
+    </view>
+    </navigator>
+  </template>
+
+  <!-- 循环输出列表 -->
+  <view wx:for="{{lists.data}}" wx:for-item="refuges" class="list">
+    <template is="reLists" data="{{...refuges}}" />
+  </view>
 </view>

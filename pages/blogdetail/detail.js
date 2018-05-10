@@ -1,4 +1,5 @@
 // pages/blogdetail/detail.js
+var app = getApp()
 Page({
 
   /**
@@ -11,14 +12,30 @@ Page({
       cTime: "2018-05-02 10:30:00",
       img: "../../images/vans0413.jpg",
       content: "这是在学习小程序！！这是在学习小程序！！这是在学习小程序！！这是在学习小程序！！这是在学习小程序！！这是在学习小程序！！这是在学习小程序！！这是在学习小程序！！这是在学习小程序！！这是在学习小程序！！"
-    }
+    },
+    refugeInfo: {}
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    var id = options.id;
+    var that = this;
+    wx.request({
+      url: 'http://118.190.148.50:8081/api/refuges/'+id, //仅为示例，并非真实的接口地址
+      method: 'GET',
+      data: {},
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      success: function (res) {
+        console.log(res.data);
+        that.setData({
+          refugeInfo: res.data
+        })
+      }
+    })
   },
 
   /**

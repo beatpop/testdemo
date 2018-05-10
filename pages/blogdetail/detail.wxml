@@ -9,4 +9,12 @@
     <image src="{{info.img}}" background-size="cover"></image>
   </view>
   <view class="deContent">{{info.content}}</view>
+
+  <view style='margin: 20px 0 20px 20px;'>
+    <view>序号：{{refugeInfo.data.id}}</view>
+    <view>名称：{{refugeInfo.data.name}}</view>
+    <view>面积：{{refugeInfo.data.area}} 平方米</view>
+    <view>容纳：{{refugeInfo.data.galleryful}} 人</view>
+    <view>地址：{{refugeInfo.data.address}}</view>
+  </view>
 </view>
